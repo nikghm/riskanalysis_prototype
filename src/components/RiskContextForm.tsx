@@ -138,21 +138,6 @@ export function RiskContextForm({ analysisType, risk, initialValues, onPrepare }
         )}
       </div>
 
-      {/* Geeignete Datenquellen */}
-      {sources.length > 0 && (
-        <div>
-          <p className="text-xs font-medium text-gray-500 mb-2">Geeignete Datenquellen</p>
-          <div className="flex flex-col gap-1.5">
-            {sources.map((src) => (
-              <div key={src.name} className="bg-white rounded-lg border border-gray-100 px-3 py-2">
-                <p className="text-xs font-medium text-gray-700">{src.name}</p>
-                <p className="text-xs text-gray-400">{src.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       {/* Hinweis + Button */}
       <div className="flex flex-col gap-2 pt-1 border-t border-gray-100">
         <p className="text-xs text-amber-600">
