@@ -104,7 +104,8 @@ export function RiskContextForm({ analysisType, risk, initialValues, onPrepare }
         </div>
         <p className="text-xs text-gray-500 leading-relaxed">
           Diese Angaben strukturieren den Analysekontext für eine spätere Auswertung.
-          Die Eingaben verlassen Ihren Browser nicht und werden nicht gespeichert.
+          Die eingegebenen Informationen werden nicht dauerhaft gespeichert. 
+          Sie werden ausschließlich für die aktuelle KI-Analyse an den serverseitigen Analyseprozess übergeben.
         </p>
       </div>
 
